@@ -14,7 +14,7 @@
 
 (defun personal-info-get (key)
   "Using KEY, get an item from the personal info list."
-  (cdr (assq key personal-info-info)))
+  (cadr (assq key personal-info-info)))
 
 (provide 'personal-info)
 ;;; personal-info.el ends here
